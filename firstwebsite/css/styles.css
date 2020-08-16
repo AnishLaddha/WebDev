@@ -1,0 +1,22 @@
+body {
+    background-color:#eaf6f6;
+}
+/* hr {
+    background-color: white;
+        
+    height: 4px;
+    width: 80%;
+    border-style: dashed;
+} */
+hr {
+    border-color: lightgray;
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    width: 20%;
+    border-width: 8px;
+}
+img {
+    height: 300px;
+    width: 400px;
+}
