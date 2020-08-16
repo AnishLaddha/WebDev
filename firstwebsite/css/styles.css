@@ -20,3 +20,20 @@ img {
     height: 300px;
     width: 400px;
 }
+h1 {
+    color: #66bfbf;
+}
+/* h3{
+    color: #f76b8a;
+} */
+
+.education {
+    color: blue;
+}
+.we {
+    color: red;
+}
+
+.skills {
+    color: pink;
+}
