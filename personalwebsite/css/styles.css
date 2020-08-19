@@ -3,6 +3,7 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 1em;
+    color: #40514e;
     
 }
 h1 {
@@ -17,11 +18,23 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 h3 {
     color: #66bfbf;
     font-family: 'Montserrat', sans-serif;
 
+}
+
+p {
+    line-height: 2;
+}
+
+hr{
+    border: dashed #EAf6f6 6px;
+    width: 40%;
+    margin: 100px auto;
+    border-bottom: none;
 }
 
 .top-container {
@@ -31,22 +44,94 @@ h3 {
     padding-top: 100px;
     
 }
+.middle-container {
+    margin: 100px 0px;
+}
+
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 50px 0px 20px;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 200px;
     bottom: 300px;
     animation: slideInLeft;
     animation-duration: 2s;
 }
 .top-cloud {
     position: absolute;
-    right: 300px;
-    top: 50px;
+    right: 200px;
+    top: 30px;
     animation: slideInRight;
     animation-duration: 2s;
 }
-.netflix {
-    height: 300px;
-    width: 300px;
+.mountain-image{
+    animation: slideInUp; 
+    animation-duration: 2s;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+
+.computer-image {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.trading-image {
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+a{
+    margin: 10px 20px;
+}
+
+.myButton {
+	background-color:#66bfbf;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:20px 23px;
+	text-decoration:none;
+}
+.myButton:hover {
+	color:#66bfbf;
+    background-color:#ffffff;
+    border: 5px solid #66bfbf;
+    padding:18px 21px;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.footer-img{
+    height: 36px;
+    width: 36px;
+}
+.cr_fin{
+    color: #EAf6f6;
+    font-size: 0.8rem;
+    padding: 20px 0px;
 }
