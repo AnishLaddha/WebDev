@@ -39,3 +39,10 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+#footer-madeby{
+  font-size: 1.4rem;
+}
+
+.footer-icon{
+  color: #4ECCA3;
+}
